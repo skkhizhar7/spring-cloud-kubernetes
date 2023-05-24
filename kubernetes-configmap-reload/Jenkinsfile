@@ -68,8 +68,7 @@ pipeline {
 			}
 	        steps {
 	            sh 'echo ${WORKSPACE}'
-		    sh 'kubectl apply -f ${WORKSPACE}/kubernetes-configmap-reload/kubernetes-configmap.yml'
-	            sh 'kubectl create -f ${WORKSPACE}/kubernetes-configmap-reload/kubernetes-configmap.yml'
+	            sh 'Kubectl create -f ${WORKSPACE}/kubernetes-configmap-reload/kubernetes-configmap.yml'
 	        }
 	    }
 	    stage ("wait_for_pods"){
