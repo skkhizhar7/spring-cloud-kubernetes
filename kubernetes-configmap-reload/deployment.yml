@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: kubernetes-configmap-reload
-          image: skkhizhar7/kubernetes-configmap-reload:tagname
+          image: skkhizhar7/kubernetes-configmap-reload
